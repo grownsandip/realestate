@@ -49,17 +49,17 @@
         &:nth-child(3) {
           width: 200px;
         }
-    }
-    @include mobiles {
+      }
+      @include mobiles {
         width: auto;
         &:nth-child(2),
         &:nth-child(3) {
           width: auto;
         }
-       padding: 20px;
-       border: 1px solid #999;
+        padding: 20px;
+        border: 1px solid #999;
+      }
     }
-}
     button {
       border: none;
       cursor: pointer;
@@ -67,11 +67,11 @@
       flex: 1;
       @include mobiles {
         padding: 10px;
-    }
-    img{
+      }
+      img {
         width: 24px;
         height: 24px;
+      }
     }
-}
   }
 }
