@@ -66,6 +66,26 @@
     .features{
       flex:2;
       background-color: #fcf5f3;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      img{
+       width: 24px;
+       height: 24px;
+      }
+      .title{
+        font-weight: bold;
+        font-size:18px;
+        margin-bottom: 10px;
+      }
+      .listVertical{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        padding: 20px 10px;
+        background-color: white;
+        border-radius: 10px;
+      }
       .wrapper{
         padding: 0px 20px;
       }
