@@ -3,7 +3,6 @@ import Layout from "./routes/layout/Layout";
 import ListPage from "./routes/list/ListPage";
 import Home from "./routes/homePage/Home";
 import SinglePage from "./routes/singlePage/SinglePage";
-import ProfilePage from "./routes/profilePage/ProfilePage";
 import Register from "./routes/register/Register";
 import Login from "./routes/login/Login";
 function App() {
@@ -24,10 +23,6 @@ function App() {
           path: "/:id",
           element: <SinglePage/>
         },
-        {
-        path: "/profile",
-        element: <ProfilePage/>
-       },
        {
         path:"/register",
         element:<Register/>
